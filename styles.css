@@ -4,8 +4,6 @@
 
 .poke-box{
     display: flex;
-    justify-content: space-around;
-    align-content: space-around;
 }
 
 #poke-con{
@@ -15,9 +13,10 @@
     width: 60%;
     height: 75vh;
     border: 10px solid rgba(0, 116,236, .9294117647058824);
-    margin: 0 auto; 
-    margin-bottom:2vh;
+    margin-bottom: 2vh;
+    margin-left: 4vh;
 }
+
 
 #poke-name{
     text-align: center;
@@ -28,8 +27,21 @@
 .poke-stats{
     display: flex;
     flex-direction: column;
+    width: 35%;
+    margin-left: 4vh;
     }
 
 h1{
         text-align: center;
     }
+
+#get-poke-button{
+    width: 60%;
+    text-align: center;
+
+}
+
+.button-area{
+    display: flex;
+    justify-content: center;
+}
