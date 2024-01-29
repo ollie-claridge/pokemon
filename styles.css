@@ -12,6 +12,14 @@ body{
     margin: 10px;
 }
 
+h3{
+    font-family: 'Permanent Marker', cursive;
+}
+
+p, ul, button{
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 10;
+}
 
 .poke-box{
     display: flex;
