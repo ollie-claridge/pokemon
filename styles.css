@@ -1,6 +1,17 @@
-#get-poke-button{
-    margin-bottom: 2vh;
+body{
+    background-color: rgba(190, 231, 255, 0.84);
 }
+
+.logo{
+    width: 40%;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
 
 .poke-box{
     display: flex;
@@ -12,10 +23,9 @@
     align-items: center;
     width: 60%;
     height: 75vh;
-    border: 10px solid rgba(255, 7, 7, 0.929);
+    border: 10px solid rgba(0, 98, 255, 0.929);
     margin-bottom: 2vh;
-    margin-left: 4vh;
-}
+    margin-left: 4vh;}
 
 
 #poke-name{
@@ -26,6 +36,7 @@
 
 .poke-stats{
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
     width: 35%;
     margin-left: 4vh;
@@ -38,6 +49,13 @@ h1{
 #get-poke-button{
     width: 60%;
     text-align: center;
+    color: white;
+    background-color: rgba(0, 98, 255, 0.929);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 2vh;
+    cursor: pointer;
 
 }
 
